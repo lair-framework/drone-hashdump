@@ -21,7 +21,7 @@ from pylair import client
 
 
 def main():
-    arguments = docopt(__doc__, version='drone-hashdump 1.0.2')
+    arguments = docopt(__doc__, version='drone-hashdump 1.0.0')
     lair_url = ''
     try:
         lair_url = os.environ['LAIR_API_SERVER']
